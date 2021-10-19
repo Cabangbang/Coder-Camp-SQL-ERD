@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="597A9111-8386-9E5B-B0CC-71F570138285" name="Course">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:15:13 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course ID" id="EFBA18D6-2E58-26E6-275A-7D82383C9923">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:25:25 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject ID" id="570B1444-B91C-0295-A110-879990633D17">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:25:42 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teacher ID" id="F99F9018-323E-C1ED-1CD8-23E0E1CB3A4E">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:31:50 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teacher Name" id="A4D84C05-9BA5-AF8D-DB93-168D44C80C6C">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:47:54 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject ID2" id="11A74EFC-8736-33B3-7FAD-6A64C44FA595">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 09:56:26 UTC</createdTime>
+<generatorID>DB6A76F0-2D6D-5070-B650-CAFB20851572</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<referedAttribute>7DBFDC1E-B7DF-5813-C042-D5C8A0599A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

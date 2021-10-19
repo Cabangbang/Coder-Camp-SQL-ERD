@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4E273A5-92A6-F48D-3739-C5AE3389C556" name="Teacher">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>3B521796-12F0-607C-0E44-721405AD44FE</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Teacher_ID" id="528C8DF3-581A-3785-87A9-D23C55401A51">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>AFCD270F-F67F-5694-B1AA-6B47BBD07226</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teacher_Name" id="5361D3D2-C929-1F40-40DF-AB7DA87579F9">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>7873A3F3-32D7-44D9-66D9-7BC1C854B015</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="4D1597A0-BAA2-BF2B-094C-2D0F4C3E5D36">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>4FECEF0C-9703-8056-8DB4-EF00EA388016</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subject" id="C4F711E9-45E7-E3FE-1117-1C783D6F29D2">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>C53BB71F-CE5A-55E7-AAD7-0188C15C05B2</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC6D64B4-3161-8141-20B9-2FA7F40A1033" name="Teacher_PK">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>04270915-BEAD-40ED-79D7-D55ECAF51E19</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="528C8DF3-581A-3785-87A9-D23C55401A51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

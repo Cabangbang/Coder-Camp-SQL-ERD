@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD95804E-635B-2604-C420-40E6E2337317" name="Enroll">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:32:37 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Course_ID" id="0FD42B89-34F9-2249-6DF8-5354E993596D">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:35:40 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student ID" id="976C5E72-19F3-C402-94D8-0BFCC1CD64A6">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-21 22:36:17 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Student ID1" id="B15052CE-6D35-E463-EB0D-0782A7415EA1">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 09:51:56 UTC</createdTime>
+<generatorID>549E6C9F-C4EB-0738-0A3D-30192326E005</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<engineerTo>
+<item key="D5589DD0-4EC0-BFA5-3BCC-7F527AD9FA16" value="true"/>
+</engineerTo>
+<referedAttribute>D0D2D920-5277-1F53-2743-C80520D0057B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

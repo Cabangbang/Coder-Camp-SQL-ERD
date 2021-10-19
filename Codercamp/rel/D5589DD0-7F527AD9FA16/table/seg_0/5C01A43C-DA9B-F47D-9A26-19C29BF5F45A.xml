@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C01A43C-DA9B-F47D-9A26-19C29BF5F45A" name="Course">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>597A9111-8386-9E5B-B0CC-71F570138285</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Course_ID" id="A07093EE-7E05-B900-62AA-BE7C9AEC3CF5">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>EFBA18D6-2E58-26E6-275A-7D82383C9923</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teacher_Name" id="5BF9933F-AAED-7EE2-1A2B-C69F590ABD7B">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>A4D84C05-9BA5-AF8D-DB93-168D44C80C6C</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teacher_ID" id="1D69BC28-E0B1-9080-266A-87332A16A87C">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:02:04 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="825E0EEE-086B-1EE6-81EF-52CAC840C4E2" referredColumn="528C8DF3-581A-3785-87A9-D23C55401A51"/>
+</associations>
+</Column>
+<Column name="Subject_ID" id="E7560240-A96D-A8E5-1A3B-F21AF8AA6E63">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:02:15 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CE6D43CB-640F-20A8-BF19-45F787705070" referredColumn="ADD59840-BCC2-4A7C-7708-DAD4086DE466"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E7BCDC4-6869-1B2F-14E3-3B518D53E65A" name="Course_PK">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:05:23 UTC</createdTime>
+<ownerDesignName>Codercamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A07093EE-7E05-B900-62AA-BE7C9AEC3CF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B03E51AF-3EDE-D059-380C-D774AAB353EF" name="Course_Teacher_FK">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:02:04 UTC</createdTime>
+<generatorID>04270915-BEAD-40ED-79D7-D55ECAF51E19</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D69BC28-E0B1-9080-266A-87332A16A87C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5414A39-D6A3-83FC-32B4-E5AC4F217517" name="Course_Subject_FK">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:02:15 UTC</createdTime>
+<generatorID>0A575C0F-1E4E-0783-63B6-F23D73F60774</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7560240-A96D-A8E5-1A3B-F21AF8AA6E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

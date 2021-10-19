@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07BA76C4-1E6F-538D-AA83-56E941B532C2" name="Student">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>04C5C1A1-A2F5-5395-5E8D-8143118F634F</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_ID" id="8DB91027-E10B-CD00-FF47-F2722DCA66D6">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>D0D2D920-5277-1F53-2743-C80520D0057B</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="First_Name" id="391B8D94-A8F6-301E-6787-F4E318172453">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>B053F78E-231F-5BBC-FE38-E213134732E8</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Last_Name" id="8DE079BA-E87A-23DB-6878-D30E9969D67A">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>E23B08C1-11B3-EC22-FBE6-F7E7FFA9C356</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_DOB" id="30EB6059-68EE-AD53-ABFC-1363A2897DC5">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>AAAE5269-3070-01A1-32C9-5A353AAF7AA0</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="25E69E06-B01D-A710-50F8-2CD467CE9BD1">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>4740F514-4378-3141-29F8-BA4ADA5081F2</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Skill" id="884B914A-12D2-8FB5-3F3B-A7AF9D590717">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>B20CE40C-D8CE-B7E0-C297-AEF3BC00AC7A</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9AB9B096-5C4A-691A-24BA-386CF41D1156" name="Student_PK">
+<createdBy>Raphael</createdBy>
+<createdTime>2021-04-22 10:00:03 UTC</createdTime>
+<generatorID>665295D0-716A-5EFC-E26F-C2311FB34DEF</generatorID>
+<ownerDesignName>Codercamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DB91027-E10B-CD00-FF47-F2722DCA66D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
